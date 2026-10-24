@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Pendaftaran</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2 id="main-title">Form Pendaftaran</h2>
+    
+    <!-- Method GET untuk melempar data via Query String -->
+    <form action="detail.html" method="GET">
+      <div>
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda" required>
+      </div>
+
+      <div>
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" placeholder="Contoh: 119140008" required>
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Contoh: nama@example.com" required>
+      </div>
+
+      <button type="submit">Daftar Sekarang</button>
+    </form>
+  </div>
+
+</body>
+</html>

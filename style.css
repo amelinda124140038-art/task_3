@@ -1,0 +1,153 @@
+/* Import Google Font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Selector 1: Element Selector */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F4F6F2;
+  color: #26332D;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Selector 2: Class Selector (Box Layout dengan Soft Glass Card) */
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid #DCE6DC;
+  box-shadow: 0 8px 24px rgba(38, 51, 45, 0.05);
+  box-sizing: border-box;
+}
+
+/* Selector 3: ID Selector */
+#main-title {
+  color: #26332D;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.container > p {
+  color: #26332D;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Selector 4: Grouping & Form Element Selector */
+form div {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  font-size: 13px;
+  color: #26332D;
+  margin-bottom: 6px;
+}
+
+input[type="text"], 
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  font-family: inherit;
+  font-size: 14px;
+  color: #26332D;
+  background-color: #F4F6F2;
+  border: 1px solid #DCE6DC;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus {
+  border-color: #34433B;
+  background-color: #FFFFFF;
+}
+
+button {
+  background-color: #34433B;
+  color: #FFFFFF;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  margin-top: 8px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #26332D;
+}
+
+/* Styling untuk Tabel (Soft Glass Accent) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #DCE6DC;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border-bottom: 1px solid #F4F6F2;
+  padding: 12px 14px;
+  text-align: left;
+  font-size: 14px;
+  color: #26332D;
+}
+
+th {
+  background-color: #DCE7ED;
+  color: #26332D;
+  font-weight: 600;
+  border-bottom: 1px solid #DCE6DC;
+}
+
+td {
+  background-color: #FFFFFF;
+}
+
+/* Styling Tombol Kembali (Soft Glass Secondary Button) */
+.btn-back {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #DCE6DC;
+  color: #26332D;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin-top: 20px;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-back:hover {
+  background-color: #cbd8cb;
+  color: #26332D;
+}
+
+.btn-back:active {
+  transform: scale(0.99);
+}
